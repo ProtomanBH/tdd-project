@@ -1,0 +1,4 @@
+1) Teste de Unidade testa unidades individuais, ou seja, mótodos e suas dependencias.
+Teste Funcional testa uma parte da funcionalidade do sistema. Muitos métodos serão testados.
+
+2) O teste funcional informa se o código está fazendo o que deveria ser feito, e o teste de unidade informa ao desenvolvedor se o código está funcionando corretamente.  
