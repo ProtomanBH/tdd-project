@@ -1,0 +1,1 @@
+O diagrama mostra como o teste funcional é mais geral e o teste de unidade é mais específico, ou seja, o teste funcional testa várias partes de uma vez, enquanto o teste de unidade testa um único método.
