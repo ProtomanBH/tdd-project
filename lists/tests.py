@@ -1,3 +1,4 @@
+from lists.models import Item
 from django.test import TestCase
 
 class HomePageTest(TestCase):
@@ -15,6 +16,10 @@ class HomePageTest(TestCase):
 
         self.assertIn('A new list item', response.content.decode())
         self.assertTemplateUsed(response, 'home.html')
+
+    def test_only_saves_items_when_necessary(self):
+        self.client.get('/')
+        self.assertEqual(Item.objects.count(), 0)
 
 
 class ItemModelTest(TestCase):
